@@ -22,4 +22,27 @@ cd foundation-base-wordpress-theme/components
 npm install
 ```
 
+Install the JavaScript vendor files:
+
+```
+npm run vendor
+```
+
+Build the stylesheet from scss files:
+
+```
+npm run sass
+```
+
 Enable the theme in the WordPress admin and enjoy.
+
+## Development
+
+While developing open a terminal and change to the *components* directory in the theme.  Execute:
+
+```
+npm start
+```
+
+This will watch for changes to the *components/scss* directory and rebuild the stylesheet automatically.
+
