@@ -1,0 +1,19 @@
+{
+  "name": "foundation-base-theme",
+  "version": "0.0.1",
+  "description": "Foundation Base theme components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass --output-style compressed --source-map true -w -r ./scss/ --output ../assets/css",
+    "sass": "node-sass --output-style compressed --source-map true -r ./scss/ --output ../assets/css",
+    "vendor": "node index.js"
+  },
+  "author": "Adam Sommer",
+  "license": "MIT",
+  "dependencies": {
+    "foundation-icon-fonts": "^0.1.1",
+    "foundation-sites": "^6.5.0-rc.4",
+    "node-sass": "^4.9.4"
+  }
+}
