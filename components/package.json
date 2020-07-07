@@ -15,7 +15,7 @@
     "foundation-icon-fonts": "^0.1.1",
     "foundation-sites": "^6.5.3",
     "node-sass": "^4.12.0",
-    "npm": "^6.10.3"
+    "npm": "^6.14.6"
   },
   "repository": {
     "type": "git",
